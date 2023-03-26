@@ -1,0 +1,23 @@
+.complement{
+    display: flex;
+    flex-direction: column;
+    grid-area: complementos;
+    margin-top: 50px;
+    margin-right: 80px;
+    
+
+}
+.nomeEstado{
+    color: #FA9E27;
+    font-size: 3rem;
+    font-family: 'Inter', sans-serif;
+}
+
+.capital-mapa{
+    font-size: 1rem;
+    font-family: 'Inter', sans-serif;
+}
+.regiao-mapa{
+    font-size: 1rem;
+    font-family: 'Inter', sans-serif;
+}

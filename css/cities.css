@@ -1,0 +1,25 @@
+.cidade{
+    display: flex;
+}
+
+.cidade-mapa{
+    grid-area: mapa;
+    
+    
+       
+}
+.description-cidade{
+    display: flex;
+    background-color: rgba(195, 195, 195, 0.965);
+    height: 240px;
+    width: auto;
+    overflow-y: scroll;
+}
+
+.cidade{
+    display: flex;
+    flex-direction: row;
+    
+    font-size: 1rem;
+    font-family: 'Inter', sans-serif;
+}

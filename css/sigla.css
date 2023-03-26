@@ -1,0 +1,28 @@
+.container-estados{
+    display: grid;
+    grid-template-areas: 
+    'sigla complementos '
+    'mapa mapa' ;
+    height: 417px;
+    width: 375px;
+    background-color: #F5E7D3;
+    box-shadow: 0px 6px 4px 0px #8a8a8a;
+}
+
+.sigla-circle{ 
+    display: flex;
+    grid-area: sigla;
+    width: 100px;
+    height: 100px;
+    margin-top: 30px;
+    margin-left: 30px;
+    justify-content: center;
+    align-items: center;
+    background-color: #FA9E27;
+    border-radius: 50px;
+    border: 4px solid white;
+    box-shadow: 0px 0px 8px #8a8a8a;
+    color: white;
+    font-size: 32px;
+    font-family: 'Inter', sans-serif;   
+}

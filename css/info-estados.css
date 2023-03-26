@@ -1,0 +1,14 @@
+.map-container{
+    display: flex;
+
+}
+
+.informacoes_estados{
+    display: grid;
+    grid-template-areas: 
+    "map informacoes_estados";
+    align-items: center;
+    gap: 24px;
+    
+
+}
